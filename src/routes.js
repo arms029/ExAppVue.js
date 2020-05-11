@@ -1,5 +1,6 @@
 import Home from './components/home/Home.vue';
 
 export const routes = [
-    { path: '', component: Home},
+    { path: '', name: 'home', component: Home, titulo: 'Home' },
+    { path: '*', component: Home, menu: false }
 ];

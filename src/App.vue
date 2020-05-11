@@ -33,7 +33,7 @@ export default {
   div::after {
     content: "";
     background: url('/static/mat.jpg');
-    opacity: 0.10;
+    opacity: 0.07;
     top: 0;
     left: 0;
     bottom: 0;
